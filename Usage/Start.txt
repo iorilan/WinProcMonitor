@@ -1,0 +1,14 @@
+
+ class Program
+    {
+        static void Main(string[] args)
+        {
+...
+	WinServiceRebootService.Start();
+				WinServiceAlwaysOnService.Start();
+				ProcessRebootService.Run();
+                KillProcessAfterTime.Run();
+
+...
+}
+}
